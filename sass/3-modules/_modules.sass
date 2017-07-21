@@ -1,0 +1,104 @@
+.flex
+  display: flex
+  flex-wrap: wrap
+
+.section-gray
+  background: #f4f4f4
+
+.section-secondary
+  background-color: #e44d26
+  color: $color
+  padding: 60px 0
+  text-align: center
+  font-family: 'Oswald', sans-serif
+
+.section-primary
+  background-color: $primary-color
+  color: $color
+  padding: 60px 0
+
+.section-title
+  padding: 10px
+  background-color: #0383c0
+  color: $color
+
+  small
+    color: #ccc !important
+
+.slogan
+  h1
+    font-size: 50px
+    padding-bottom: 25px
+
+  p
+    font-size: 20px
+
+  a
+    margin-top: 20px
+
+.nav
+  margin-top: 18px
+
+.navbar
+  min-height: 90px
+  margin-bottom: 0 !important
+
+.navbar-brand
+  height: auto
+  padding-top: 15px
+  margin: 0
+
+
+
+.navbar-nav
+  margin: 0
+  padding: 0
+
+  li
+    padding-top: 5px
+    padding-bottom: 5px
+
+  > li > a
+    padding: 20px
+    font-size: 18px
+    font-weight: bold
+    border-right: 1px solid #ccc
+    text-transform: uppercase
+    font-family: 'Oswald', sans-serif
+
+    span
+      margin: 5px 0 0 0
+      padding: 0
+      font-size: 14px
+      display: block
+      font-weight: normal
+      font-family: arial
+      text-transform: none
+
+a:hover
+  +hover() 
+
+.navbar-default .navbar-nav > .active > a
+  +hover()
+
+.hover, .focus
+  +hover()
+
+.jumbotron
+  margin: 0 !important
+  min-height: 450px
+  background: url(../img/bg.jpg) no-repeat
+
+
+.jumbotron h1
+  font-size: 55px
+
+.fa-color
+  color: #0383c0
+
+.feature-list li
+  font-size: 18px
+  line-height: 2em
+
+.macbook-image, .img-circle
+  margin-top: 40px
